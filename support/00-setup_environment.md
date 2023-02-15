@@ -57,7 +57,7 @@ git config --global user.email "your_email"
 ```
 *Note don't forget to replace `your_username` and `your_email` with your information.*
 
-2. Get your copie of the python for finance project.
+2. Get your copie of the python project.
 - Now after you have your own github, you need to do a fork for this project (fork is copying a project to your projects)
 - In the top right of this page press the button `fork` to do a fork for this project.
 - Now you have your own copie of the project which is by the way linked by the original project.
@@ -68,7 +68,7 @@ git config --global user.email "your_email"
     - Copy the generated ssh public key (`cat /path/to/public/key.pub` path is outputed by the previous command).
     - Open your github account and navigate to the `settings` then `SSH and GPG keys`, click on `new SSH key`, give a title (whatever you want) and past the public key in the `key` area, finally click `Add SSH key`.
 4. clone the repo:
-go to your repositories and open the python for finance repo, click on the code button (in green color), copie the link, and open your terminal, then 
+go to your repositories and open the python repo, click on the code button (in green color), copie the link, and open your terminal, then 
 - change the working directory to Desktop by runing:
 ```bash
 cd Desktop
@@ -76,11 +76,11 @@ cd Desktop
 *Note if your system is in french you will need to replace Desktop with Bureau*
 - Clone the project (replace <username> with your username without `<>`)
 ```bash
-git clone git@github.com:<username>/python-for-finance.git
+git clone git@github.com:<username>/PYTHON.git
 ```
 - Cd into the project directory:
 ```bash
-cd Python_For_Finance
+cd PYTHON
 ```
 5. Now let's installed the requirement packages.
 - Create a virtual environment
